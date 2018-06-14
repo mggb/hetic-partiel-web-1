@@ -55,6 +55,15 @@
   text-transform: uppercase;
 }
 
+a:link {color: black; transition: 300ms}
+a:visited {color: gray; transition: 300ms}
+a:hover {color: red; transition: 300ms}
+a:active {color: red; transition: 300ms}
+
+button:link {color: black; transition: 300ms}
+button:visited {color: gray; transition: 300ms}
+button:hover {color: red; transition: 300ms}
+button:active {color: red; transition: 300ms}
 /* Page Intro --------------------------------------------------------------------------------------------------------------- */
 
 #pageintro {
