@@ -1174,6 +1174,9 @@ table a, #comments a {
     display: none;
     height: 48px;
   }
+  .incenter{
+    text-align: center;
+  }
 }
 
 @media screen and (max-width:750px) {
@@ -1196,6 +1199,7 @@ table a, #comments a {
     width: auto;
     margin: 0 0 30px 0;
     padding: 0;
+    text-align: center;
   }
   #header {
     text-align: center;
@@ -1209,15 +1213,25 @@ table a, #comments a {
   }
   #pageintro .heading {
     font-size: 2rem;
+    text-align: center;
+  }
+  #pageintro p {
+    text-align: center;
+  }
+  #pageintro article footer ul li a {
+    text-align: center;
   }
   .sectiontitle {
     max-width: none;
   }
   .services+footer {
-    text-align: left;
+    text-align: center;
   }
   .cta> :first-child {
     margin-top: 0;
+  }
+  .incenter{
+    text-align: center;
   }
 }
 
@@ -1243,6 +1257,7 @@ table a, #comments a {
   }
   .pushright li {
     margin-right: 0;
+    text-align: center;
   }
   .font-x2 {
     font-size: 1.4rem;
