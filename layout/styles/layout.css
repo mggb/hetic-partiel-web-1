@@ -32,10 +32,11 @@
   line-height: normal;
 }
 
-.menu{
-	display: none;
+.menu {
+  display: none;
 }
-.img-menu-close{
+
+.img-menu-close {
   display: none;
 }
 
@@ -841,17 +842,21 @@ input:focus, textarea:focus, *:required:focus {
 .overlay.light::after {
   background-color: rgba(0, 0, 0, .55);
 }
-.backgroundWrapper{
-  background-image:url('images/demo/backgrounds/02.png');
+
+.backgroundWrapper {
+  background-image: url('images/demo/backgrounds/02.png');
 }
-.background01{
-  background-image:url('images/demo/backgrounds/01.png');
+
+.background01 {
+  background-image: url('images/demo/backgrounds/01.png');
 }
-.background03{
-  background-image:url('images/demo/backgrounds/03.png');
+
+.background03 {
+  background-image: url('images/demo/backgrounds/03.png');
 }
-.background04{
-  background-image:url('images/demo/backgrounds/04.png');
+
+.background04 {
+  background-image: url('images/demo/backgrounds/04.png');
 }
 
 .btn, .btn.inverse:hover {
@@ -1124,13 +1129,13 @@ table a, #comments a {
     margin-top: 3px;
   }
   #mainav {
-		display: none;
-	}
+    display: none;
+  }
   #mainav ul {
     display: none;
-		display: flex;
-		flex-direction: column;
-		margin-top: 155px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 155px;
   }
   #mainav form {
     display: none;
@@ -1149,32 +1154,32 @@ table a, #comments a {
   #copyright p:first-of-type {
     margin-bottom: 10px;
   }
-	.menu{
-		display: block;
-		width: 50%;
-		height: 100%;
-	}
-	.row0, .row0 a {
-	  display: flex;
-	}
-	.img-menu{
-		height: 48px;
-	}
-	.menu-open{
-		background: red;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 100%;
-		width: 100%;
-		position: absolute;
-	}
-  .img-menu-close{
+  .menu {
+    display: block;
+    width: 50%;
+    height: 100%;
+  }
+  .row0, .row0 a {
+    display: flex;
+  }
+  .img-menu {
+    height: 48px;
+  }
+  .menu-open {
+    background: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  .img-menu-close {
     display: none;
     height: 48px;
   }
-  .incenter{
+  .incenter {
     text-align: center;
   }
 }
@@ -1230,7 +1235,7 @@ table a, #comments a {
   .cta> :first-child {
     margin-top: 0;
   }
-  .incenter{
+  .incenter {
     text-align: center;
   }
 }
